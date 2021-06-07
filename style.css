@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  background-color: rgba(69, 143, 196, 1);
+}
+
+#title {
+  font-size: 50px;
+}
+
+hr {
+  padding: 3px;
+  background-color: white;
+  border: solid white;
+  border-radius: 5%;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+section {
+  border: 2px solid black;
+  border-radius: 2%;
+  background-color: rgba(249, 249, 246, 1);
+  padding: 100px;
+  width: 50%;
+}
+@media screen and (max-height: 731px) {
+  div {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section {
+    padding: 50px 0 50px 0;
+    width: 100%;
+  }
+}
